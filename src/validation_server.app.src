@@ -1,1 +1,12 @@
-
+{application, validation_server,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { validation_app, []}},
+  {env, []}
+ ]}.
